@@ -10,21 +10,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
-    <form>
+    <form id="main">
         <div class="conteiner">
             <div class="formulario">
                 <h2>Formulario de validação</h2>
-                <input type="number" placeholder="Campo A" required id="campo-a">
-                <input type="number" placeholder="Campo B" required id="campo-b">
-                <button type="submit" class="btl">Validar !</button>
-                <div class="error"></div>
+                <input type="number" placeholder="Campo A" id="campo-a" required>
+                <input type="number" placeholder="Campo B" id="campo-b" required>
+                <button type="submit" id="btl">Validar !</button>
+                <div id="feedback"></div>
             </div>
+            
         </div>
     </form>
 </body>
-
+<script src="script.js"></script>
 </html>
