@@ -16,7 +16,7 @@
 }
 
 #btl {
-    background-color: #4CAF50;
+    background-color: #ec2300;
     border: none; 
     color: white; 
     padding: 10px 10px; 
@@ -32,5 +32,11 @@
   #btl:hover {
     background-color: rgb(173, 13, 147);
   }
-  
 
+  .input-valido {
+    border-color: #4df553;
+  }
+
+  .input-invalido {
+    border-color: #e7013b;
+  }
