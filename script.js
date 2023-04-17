@@ -17,6 +17,8 @@ botao.addEventListener('click', function(event) {
         feedback.innerHTML = '';
         mensagem.style.color = 'green'
         feedback.appendChild(mensagem);
+        
+
     } else {
         
         let mensagem = document.createElement('p');
@@ -24,6 +26,7 @@ botao.addEventListener('click', function(event) {
         mensagem.classList.add('feedback-validado')
         feedback.innerHTML = '';
         mensagem.style.color = 'red'
-        feedback.appendChild(mensagem);
+        feedback.appendChild(mensagem)
     }
 });
+
