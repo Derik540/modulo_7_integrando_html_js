@@ -16,7 +16,7 @@
 }
 
 #btl {
-    background-color: #ec2300;
+    background-color: #3200e6;
     border: none; 
     color: white; 
     padding: 10px 10px; 
@@ -30,7 +30,7 @@
   }  
 
   #btl:hover {
-    background-color: rgb(173, 13, 147);
+    background-color: rgb(4, 78, 107);
   }
 
   .input-valido {
@@ -38,5 +38,27 @@
   }
 
   .input-invalido {
-    border-color: #e7013b;
+    border-color: #ff0000;
   }
+
+#tip {
+    background-color: #c20101;
+    border: none; 
+    color: white; 
+    padding: 10px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    margin: 10px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+
+#tip:hover {
+    background-color: rgb(96, 238, 67);
+}
+
+.feedback-invalido {
+    background-color: #c20101;
+}
