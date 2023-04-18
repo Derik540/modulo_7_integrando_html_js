@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    
+</head>
+
+<body >
+    <form id="main">
+        <div class="conteiner">
+            <div class="formulario">
+                <h2>Formulario de validação</h2>
+                <input type="number" placeholder="Campo A" id="campo-a" class="inputbar" required>
+                <input type="number" placeholder="Campo B" id="campo-b" class="inputbar" required>
+                <button type="submit" id="btl" class="buton">Validar !</button>
+                <button type="submit" id="tip">Dica</button>
+                <div id="feedback"></div>
+            </div>
+            
+        </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
