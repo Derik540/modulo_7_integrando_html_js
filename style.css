@@ -10,9 +10,15 @@
 }
 
 .formulario {
+    background-color: rgb(255, 240, 240);
     text-align: center;
     padding: 20px;
     border: 1px solid black;
+    background: rgba(99, 139, 240, 0.24);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 #btl {
@@ -61,4 +67,8 @@
 
 .feedback-invalido {
     background-color: #c20101;
+} 
+
+body {
+  background-image: url('/assets/Céu\ ao\ Ar\ Livre\ Natureza\ Citação\ Motivacional\ Imagem\ de\ fundo\ de\ tela.png');
 }

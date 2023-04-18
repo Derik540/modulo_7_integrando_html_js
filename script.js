@@ -12,7 +12,7 @@ let inputA = document.querySelector('#campo-a');
     let valorB = parseInt(inputB.value);
 
     if (inputA.value.trim() === '' || inputB.value.trim() === ''){
-        window.alert('Preencha ambos campos !')
+        window.alert('Preencha os campos !')
         return
     }
    
