@@ -12,7 +12,7 @@ let inputA = document.querySelector('#campo-a');
     let valorB = parseInt(inputB.value);
 
     if (inputA.value.trim() === '' || inputB.value.trim() === ''){
-        window.alert('Preencha os campos !')
+        window.alert('Preencha todos os campos !')
         return
     }
    
@@ -44,6 +44,6 @@ let inputA = document.querySelector('#campo-a');
 });
 
 tipbtl.addEventListener('click', function (e) {
-    window.alert('Como funciona: O campo B sempre deve ser maior que A, caso contrario será exibido uma mensagem ')
+    window.alert('Como funciona: O campo B sempre deve ser maior que A, caso contrario será invalido ')
 })
 
